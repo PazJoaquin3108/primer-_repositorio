@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #f1f1f1;
+    background: black;
+    height: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header {
+    width: 100%;
+    Position: sticky;
+    Top: 0;
+    z-index: 10;
+}
+
+.menu a:hover{
+    background: #070707;
+    color: #b50717;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.menu li:hover .dropdown-1 > li{
+    display: block;
+    top: 0;
+}
+.dropdown-1 li{
+    display: none;
+    position: relative;
+}
+.dropdown-1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.font {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.subtitulo {
+    color: #b50717;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 42px;
+    margin-top: 30px;
+}
+
+body {
+    background-color: #131313;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    height: 200px;
+    width: 300px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.titulo {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #b50717;
+    color: #f1f1f1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-right: 25%;
+    font-size: 25px;
+    padding: 9px 21px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 40px;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+
+.ins {
+    height: 200px;
+    width: 600px;
+    margin-top: 30px;
+    transform: scale(0.7);
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+
+.ins:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.pie {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    background-color: #b50717;
+    padding: 15px;
+    width: 100%;
+}
+
+.yt {
+    margin-right: 4px;
+}
+
+.icon {
+    padding: 4px;
+    border-radius: 25px;
+    transform: scale(1.5);
+    margin: 0 10px;
+}
+
+.icon:hover {
+    background-color: #7a151f;
+    transform: scale(1.7);
+    transition: 0.2s;
+}
+
+.logo {
+    height: 45px;
+    margin: 0;
+}
